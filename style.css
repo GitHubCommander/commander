@@ -23,3 +23,18 @@ main{
 h1{
     font-size: 44px;
 }
+
+.text_fadein{
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
