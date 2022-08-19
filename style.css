@@ -1,4 +1,5 @@
 .flex {
+    text-align: center;
     display: flex;
     padding: 10px;
 }
@@ -8,7 +9,7 @@
 }
 
 .flex p {
-    width: 75%;
+    width: 300px;
     display: inline-block;
     margin-left: 15px;
     font-size: 13px;
