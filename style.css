@@ -4,13 +4,13 @@
 }
 
 .flex img {
-    width: 25%;
+    width: 80px;
 }
 
 .flex p {
     width: 75%;
     display: inline-block;
-    margin-top: 15px;
+    margin-left: 15px;
     font-size: 13px;
     color: #b3aeb5;
 }
