@@ -23,3 +23,35 @@ main{
 h1{
     font-size: 44px;
 }
+
+.text_fadein{
+  animation-name: fade;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.animation_box {
+  padding: 10px;
+  animation: fadeIn 2.5s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
