@@ -24,24 +24,19 @@ h1{
     font-size: 44px;
 }
 
-.animation1 {
-
-white-space:nowrap;
-overflow:hidden;
-animation:animation1 4s linear infinite;
-}
-@keyframes animation1 {
-
-from {
-
-width:0%;
+.text_fadein{
+  animation-name: fade;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
 }
 
-to {
-
-width:100%;
-}
-
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 
