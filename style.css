@@ -17,6 +17,11 @@
     color: #b3aeb5;
 }
 
+.main-box {
+    float: left;
+    width: 100%;
+}
+
 main{
     margin-left:120px;
 }
@@ -57,4 +62,8 @@ h1{
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+header h1{
+  text-align: center;
 }

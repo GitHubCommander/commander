@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 id="color-text">お探しのページはありませんでした。</h1>
+        <p id="color-text">404 Not Found</p>
+        <script>
+        setInterval(color,1);
+            function color() {
+                var x = document.getElementById("color-text");
+                var run1 = Math.ceil( Math.random() * 255 );
+                var run2 = Math.ceil( Math.random() * 255 );
+                var run3 = Math.ceil( Math.random() * 255 );
+                var y = "rgb(" + run1 + "," + run2 + "," + run3 + ")"
+                x.style.color = y;
+            }
+        </script>
+    </body>
+</html>
