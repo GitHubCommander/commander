@@ -5,5 +5,16 @@
     <body>
         <h1>お探しのページはありませんでした。</h1>
         <div>404 Not Found</div>
+        <script>
+        setInterval(color,500);
+            function color() {
+                var x = document.getElementById("color-text");
+                var rgb1 = Math.ceil( Math.random() * 255 );
+                var rgb2 = Math.ceil( Math.random() * 255 );
+                var rgb3 = Math.ceil( Math.random() * 255 );
+                var y = "rgb(" + rbg1 + "," + rgb2 + "," + rgb3 + ")"
+                x.style.color = y;
+            }
+        </script>
     </body>
 </html>
