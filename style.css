@@ -58,3 +58,7 @@ h1{
     transform: translateY(0);
   }
 }
+
+header h1{
+  text-align: center;
+}
