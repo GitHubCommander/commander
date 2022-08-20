@@ -17,6 +17,10 @@
     color: #b3aeb5;
 }
 
+.box {
+    width: 30%;
+}
+
 main{
     margin-left:120px;
 }
