@@ -29,6 +29,9 @@ h1{
   animation-duration: 2.5s;
   animation-iteration-count: 1;
 }
+.link a{
+    display: block;
+}
 
 @keyframes fade{
   0%{
