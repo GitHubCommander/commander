@@ -18,7 +18,8 @@
 }
 
 .box {
-    width: 30%;
+    float: left;
+    width: 25%;
 }
 
 main{
