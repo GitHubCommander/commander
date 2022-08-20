@@ -29,6 +29,9 @@ h1{
   animation-duration: 2.5s;
   animation-iteration-count: 1;
 }
+.link a{
+    display: block;
+}
 
 @keyframes fade{
   0%{
@@ -44,7 +47,7 @@ h1{
   padding: 10px;
   animation: fadeIn 2.5s ease 1s 1 normal backwards;
 }
- 
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -54,4 +57,8 @@ h1{
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+header h1{
+  text-align: center;
 }
