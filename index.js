@@ -1,9 +1,17 @@
-const { Client } = require("discord.js")
-const client = new Client()
-
-//discord.jsのAPIでID入力するだけでpictureフォルダにアイコン入れたい(願望) By梅干し
-
 let div = document.getElementsByClassName("member")
+
+//以下鯖関連のアイコン等の画像取得↓
+const { Client } = require("discord.js")
+const client = new Client({ intents: 32767 })
+
+const serverIconURL = client.guilds.cache.get("941651004884152380").iconURL
+
+function getUserIconURL(ID){
+    return client.users.fetch(ID).iconURL
+    console.log(client.users.fetch(ID).iconURL)
+}
+
+
 // document.getElementsByClassName("flex member"). = client.users.fetch().iconURL
 
 $(function() {
