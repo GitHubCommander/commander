@@ -11,9 +11,6 @@ function getUserIconURL(ID){
     console.log(client.users.fetch(ID).iconURL)
 }
 
-
-// document.getElementsByClassName("flex member"). = client.users.fetch().iconURL
-
 $(function() {
 	setTimeout(function(){
 		$('.text_fadein').fadeIn(1000);
