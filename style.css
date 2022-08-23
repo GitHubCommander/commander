@@ -3,6 +3,7 @@
     padding: 10px;
     margin: 10px;
     height: 160px;
+    width: 500px;
     border-radius: .6rem;
     transition: .3s;
 }
@@ -23,6 +24,7 @@
     display: inline-block;
     margin-left: 15px;
     font-size: 14px;
+    vertical-align: top;
     color: #757575;
 }
 
