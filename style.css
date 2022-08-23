@@ -8,6 +8,7 @@
 .flex:hover{
     background-color: #ececec;
     transform: scale(1.03,1.03);
+    cursor:pointer;
 }
 
 .flex img {
