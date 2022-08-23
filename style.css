@@ -1,18 +1,20 @@
 .flex {
     display: flex;
     padding: 10px;
+    margin: 10px;
     border-radius: .6rem;
     transition: .3s;
 }
 .flex:hover{
     background-color: #ececec;
     transform: scale(1.03,1.03);
+    cursor:pointer;
 }
 
 .flex img {
     width: 160px;
     height: 160px;
-
+    border-radius: .6rem;
 }
 
 .flex p {
@@ -38,6 +40,12 @@ main{
 }
 h1{
     font-size: 44px;
+}
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 22px;
 }
 
 .text_fadein{
