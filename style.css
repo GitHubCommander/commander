@@ -14,7 +14,7 @@
 .flex img {
     width: 160px;
     height: 160px;
-
+    border-radius: .6rem;
 }
 
 .flex p {
@@ -43,6 +43,9 @@ h1{
 }
 h2{
     font-size: 33px;
+}
+h3{
+    font-size: 22px;
 }
 
 .text_fadein{
