@@ -25,6 +25,10 @@
     color: #757575;
 }
 
+.flex a {
+    text-decoration: none; 
+}
+
 .main-box {
     float: left;
     width: 100%;
