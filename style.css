@@ -1,9 +1,12 @@
 .flex {
     display: flex;
     padding: 10px;
+    border-radius: .6rem;
+    transition: .3s;
 }
 .flex:hover{
-    background-color: #b3aeb5;
+    background-color: #ececec;
+    transform: scale(1.03,1.03);
 }
 
 .flex img {
