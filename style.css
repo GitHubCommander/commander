@@ -26,7 +26,7 @@
 }
 
 .flex a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .main-box {
@@ -40,6 +40,9 @@ main{
 }
 h1{
     font-size: 44px;
+}
+h2{
+    font-size: 33px;
 }
 
 .text_fadein{
