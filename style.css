@@ -1,6 +1,7 @@
 .flex {
     display: flex;
     padding: 10px;
+    margin: 20px;
     border-radius: .6rem;
     transition: .3s;
 }
