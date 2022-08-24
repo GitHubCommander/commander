@@ -1,5 +1,5 @@
 .FlexDiv{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     width: 920px;
 }
@@ -9,11 +9,11 @@
     height: 140px;
     width: 480px;
     border-radius: .6rem;
-    transition: .3s;
+    transition: .4s;
 }
 .Flex:hover{
     background-color: #ececec;
-    transform: scale(1.03,1.03);
+    transform: scale(1.04,1.04);
     cursor:pointer;
 }
 
@@ -42,8 +42,8 @@ a {
 }
 
 main{
-    margin-left:280px;
-    margin-right:440px;
+    width: 900px;
+    margin: 0 auto;
 }
 h1{
     font-size: 44px;
