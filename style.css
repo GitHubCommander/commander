@@ -1,25 +1,29 @@
-.flex {
-    display: flex;
+.FlexDiv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 920px;
+}
+.Flex {
     padding: 10px;
     margin: 10px;
-    height: 160px;
-    width: 500px;
+    height: 140px;
+    width: 480px;
     border-radius: .6rem;
     transition: .3s;
 }
-.flex:hover{
+.Flex:hover{
     background-color: #ececec;
     transform: scale(1.03,1.03);
     cursor:pointer;
 }
 
-.flex img {
-    width: 160px;
-    height: 160px;
+.Flex img {
+    width: 140px;
+    height: 140px;
     border-radius: .6rem;
 }
 
-.flex p {
+.Flex p {
     width: 300px;
     display: inline-block;
     margin-left: 15px;
@@ -86,6 +90,6 @@ h3{
   }
 }
 
-header h1{
+header {
   text-align: center;
 }
