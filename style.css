@@ -72,11 +72,13 @@ nav ul{
     list-style: none;
     margin: 0;
 }
+/*
 nav li, :not(img){
     margin-right: 55px;
     margin-left: 0px;
     padding: 0px;
 }
+*/
 header img{
     width: 70px;
 }
