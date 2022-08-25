@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .FlexDiv{
     display: flex;
     flex-wrap: wrap;
@@ -31,11 +35,39 @@
     vertical-align: top;
     color: #757575;
 }
+header{
+    height: 500px;
+    background-image: url(pictures/header_background.webp);
+    filter: greyscale(100%);
+    opacity: 90%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header nav{
+    padding-top: 15px;
+    text-align: center;
+    background-color: black;
+    height: 65px;
+    box-sizing: border-box;
+}
+nav *{
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+nav li, :not(img){
+    margin-right: 55px;
+}
+header img{
+    width: 70px;
+}
 
 a {
     text-decoration: none;
 }
-
 .main-box {
     float: left;
     width: 100%;
@@ -47,6 +79,7 @@ main{
 }
 h1{
     font-size: 44px;
+    margin: 0px 0px 0px 0px ;
 }
 h2{
     font-size: 33px;
@@ -88,8 +121,4 @@ h3{
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-header {
-  text-align: center;
 }
