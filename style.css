@@ -37,14 +37,21 @@
 }
 header{
     height: 500px;
-    background-image: url(pictures/header_background.webp);
-    filter: greyscale(100%);
+    width: 1920px;
+    background-image: url(pictures/background.jpg);
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
     opacity: 90%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+header h1{
+    margin-left: 55px;
+    margin-top: 55px;
+    font-size: 60px;
+}
 header nav{
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     background-color: black;
     height: 65px;
@@ -60,6 +67,8 @@ nav ul{
 }
 nav li, :not(img){
     margin-right: 55px;
+    margin-left: 0px;
+    padding: 0px;
 }
 header img{
     width: 70px;
