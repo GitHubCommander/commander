@@ -1,15 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .FlexDiv{
     display: flex;
     flex-wrap: wrap;
     width: 920px;
 }
 .Flex {
-    padding: 10px;
-    margin: 10px;
-    height: 140px;
-    width: 480px;
+    padding: 7px;
+    margin: 7px;
+    height: 130px;
+    width: 440px;
     border-radius: .6rem;
     transition: .4s;
+    flex-basis: 49%;
 }
 .Flex:hover{
     background-color: #ececec;
@@ -18,24 +23,60 @@
 }
 
 .Flex img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: .6rem;
 }
 
-.Flex p {
-    width: 300px;
+.Flex p, h4, h5, h6, a {
+    width: 260px;
     display: inline-block;
-    margin-left: 15px;
-    font-size: 14px;
+    margin: 10px 0px 0px 15px;
     vertical-align: top;
     color: #757575;
+}
+header{
+    height: 500px;
+    width: 1920px;
+    background-image: url(pictures/background.jpg);
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    opacity: 90%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header h1{
+    margin-left: 55px;
+    margin-top: 55px;
+    font-size: 60px;
+}
+header nav{
+    padding-top: 12px;
+    text-align: center;
+    background-color: black;
+    height: 65px;
+    box-sizing: border-box;
+}
+nav *{
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+nav li, :not(img){
+    margin-right: 55px;
+    margin-left: 0px;
+    padding: 0px;
+}
+header img{
+    width: 70px;
 }
 
 a {
     text-decoration: none;
 }
-
 .main-box {
     float: left;
     width: 100%;
@@ -47,6 +88,7 @@ main{
 }
 h1{
     font-size: 44px;
+    margin: 0px 0px 0px 0px ;
 }
 h2{
     font-size: 33px;
@@ -88,8 +130,4 @@ h3{
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-header {
-  text-align: center;
 }
