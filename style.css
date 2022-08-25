@@ -21,13 +21,13 @@
     width: 140px;
     height: 140px;
     border-radius: .6rem;
+    vertical-align: top;
 }
 
-.Flex p {
+.Flex p, h4, h5, h6 {
     width: 300px;
     display: inline-block;
-    margin-left: 15px;
-    font-size: 14px;
+    margin: 10px 0px 0px 15px;
     vertical-align: top;
     color: #757575;
 }
