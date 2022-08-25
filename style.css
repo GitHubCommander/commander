@@ -35,7 +35,6 @@
 }
 
 .Flex p, h4, h5, h6, a {
-    width: 260px;
     display: inline-block;
     margin: 10px 0px 0px 15px;
     vertical-align: top;
