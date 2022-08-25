@@ -4,12 +4,13 @@
     width: 920px;
 }
 .Flex {
-    padding: 10px;
-    margin: 10px;
-    height: 140px;
-    width: 480px;
+    padding: 7px;
+    margin: 7px;
+    height: 130px;
+    width: 440px;
     border-radius: .6rem;
     transition: .4s;
+    flex-basis: 49%;
 }
 .Flex:hover{
     background-color: #ececec;
@@ -18,14 +19,13 @@
 }
 
 .Flex img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: .6rem;
-    vertical-align: top;
 }
 
-.Flex p, h4, h5, h6 {
-    width: 300px;
+.Flex p, h4, h5, h6, a {
+    width: 260px;
     display: inline-block;
     margin: 10px 0px 0px 15px;
     vertical-align: top;
