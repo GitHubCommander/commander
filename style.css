@@ -3,8 +3,9 @@
     padding: 0px;
 }
 .FlexDiv{
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     width: 920px;
 }
 .Flex {
@@ -68,8 +69,6 @@ nav ul{
     margin: 0;
 }
 nav li, :not(img){
-    margin-right: 55px;
-    margin-left: 0px;
     padding: 0px;
 }
 header img{

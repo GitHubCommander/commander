@@ -1,2 +1,2 @@
 const headerGen = document.getElementById("headerGen")
-headerGen.insertAdjacentHTML("afterbegin", '<nav><ul><li><a href="https://githubcommander.github.io/commander/">HOME</a></li><li><a href="https://githubcommander.github.io/commander/about/">ABOUT</a></li><li><a href="https://githubcommander.github.io/commander/members/">MEMBERS</a></li></ul></nav>')
+headerGen.insertAdjacentHTML("afterbegin", '<nav><ul><li><a href="https://githubcommander.github.io/commander/">HOME</a></li><li><a href="https://githubcommander.github.io/commander/about/">ABOUT</a></li><li><a href="https://githubcommander.github.io/commander/history/">HISTORY</a></li><li><a href="https://githubcommander.github.io/commander/members/">MEMBERS</a></li></ul></nav>')
