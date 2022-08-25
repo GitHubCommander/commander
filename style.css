@@ -35,14 +35,16 @@
     vertical-align: top;
     color: #757575;
 }
-header{
-    height: 500px;
-    width: 1920px;
+#header{
     background-image: url(pictures/background.jpg);
+    height: 500px;
+}
+header{
+    width: 1920px;
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     opacity: 90%;
-    margin: 0 0 0 0;
+    margin: 0 15 0 0;
     padding: 0 0 0 0;
 }
 header h1{

@@ -1,13 +1,14 @@
-const membersDiv = document.getElementById("memberDiv")
-const fs = require("fs")
-
-// CR = String.fromCharCode(13);
-// let fso = new ActiveXObject("Scripting.FileSystemObject");
-// let folder = fso.GetFolder("pictures/Normal/");
-// for (let i = 0; i < files.length; i++) {
-//     let txt = txt + files[i].fullName + CR;
-//     console.log(txt)
-// }
+const folder = "pictures/Normal/";
+$.ajax({
+    url : folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if( val.match(/\.(jpe?g|png|gif)$/) ) {
+                $("body").append( "<img src='"+ folder + val +"'>" );
+            }
+        });
+    }
+});
 
 
 //以下鯖関連のアイコン等の画像取得↓
