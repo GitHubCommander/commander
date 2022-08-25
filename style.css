@@ -3,9 +3,12 @@
     padding: 0px;
 }
 .FlexDiv{
-    display: flex;
-    flex-wrap: wrap;
-    width: 920px;
+    width: 966px;
+    margin-bottom: 70px;
+}
+.FlexDiv a{
+    margin-right: 210px;
+    width: 270px;
 }
 .Flex {
     padding: 7px;
@@ -15,6 +18,9 @@
     border-radius: .6rem;
     transition: .4s;
     flex-basis: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .Flex:hover{
     background-color: #ececec;
@@ -26,6 +32,7 @@
     width: 130px;
     height: 130px;
     border-radius: .6rem;
+    margin-right: 15px;
 }
 
 .Flex p, h4, h5, h6, a {
