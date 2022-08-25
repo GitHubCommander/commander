@@ -3,16 +3,21 @@
     padding: 0px;
 }
 .FlexDiv{
-    flex-wrap: wrap;
-    display: flex;
     flex-direction: column;
-    width: 920px;
+    width: 966px;
+}
+.FlexDiv a{
+    margin-right: 210px;
+    width: 255px;
 }
 .Flex {
+    flex-wrap: wrap;
+    display: flex;
     padding: 7px;
     margin: 7px;
     height: 130px;
     width: 440px;
+    flex-basis: 49%;
     border-radius: .6rem;
     transition: .4s;
     flex-basis: 49%;
