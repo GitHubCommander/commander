@@ -55,6 +55,8 @@ header h1{
     margin-left: 55px;
     margin-top: 55px;
     font-size: 60px;
+    color: #000;
+    -webkit-text-stroke: 1px #FFF;
 }
 header nav{
     padding-top: 12px;
