@@ -1,14 +1,3 @@
-const folder = "pictures/Normal/";
-$.ajax({
-    url : folder,
-    success: function (data) {
-        $(data).find("a").attr("href", function (i, val) {
-            if( val.match(/\.(jpe?g|png|gif)$/) ) {
-                $("body").append( "<img src='"+ folder + val +"'>" );
-            }
-        });
-    }
-});
 
 
 //以下鯖関連のアイコン等の画像取得↓
