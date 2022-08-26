@@ -1,3 +1,2 @@
-# commander
+# COMMANDER WEB SITE
 コマンダーの集い公式サイト
-in.github

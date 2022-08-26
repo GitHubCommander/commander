@@ -3,9 +3,12 @@
     padding: 0px;
 }
 .FlexDiv{
-    display: flex;
-    flex-wrap: wrap;
-    width: 920px;
+    width: 966px;
+    margin-bottom: 70px;
+}
+.FlexDiv a{
+    margin-right: 210px;
+    width: 255px;
 }
 .Flex {
     padding: 7px;
@@ -15,6 +18,9 @@
     border-radius: .6rem;
     transition: .4s;
     flex-basis: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .Flex:hover{
     background-color: #ececec;
@@ -26,6 +32,7 @@
     width: 130px;
     height: 130px;
     border-radius: .6rem;
+    margin-right: 15px;
 }
 
 .Flex p, h4, h5, h6, a {
@@ -37,11 +44,10 @@
 }
 header{
     height: 500px;
-    width: 1920px;
     background-image: url(pictures/background.jpg);
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
-    opacity: 90%;
+    background-size: 100% auto;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -49,6 +55,8 @@ header h1{
     margin-left: 55px;
     margin-top: 55px;
     font-size: 60px;
+    color: #000;
+    -webkit-text-stroke: 2px #FFF;
 }
 header nav{
     padding-top: 12px;
@@ -65,11 +73,13 @@ nav ul{
     list-style: none;
     margin: 0;
 }
+/*
 nav li, :not(img){
     margin-right: 55px;
     margin-left: 0px;
     padding: 0px;
 }
+*/
 header img{
     width: 70px;
 }
