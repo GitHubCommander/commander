@@ -89,8 +89,7 @@ nav ul{
 nav li, :not(img){
     padding: 0;
     /* margin-right: 55px;
-    margin-left: 10px; */
-}
+    margin-left: 10px;
 */
 header img{
     width: 70px;
