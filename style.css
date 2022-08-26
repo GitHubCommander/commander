@@ -34,7 +34,6 @@
     width: 130px;
     height: 130px;
     border-radius: .6rem;
-    margin-right: 15px;
 }
 .Flex h4, h5, h6, a {
     display: inline-block;
@@ -43,18 +42,19 @@
     color: #757575;
 }
 .Flex p {
+    display: inline-block;
     word-wrap: break-word;
     margin: 10px 0px 0px 15px;
     height: 20px;
     color: #757575;
 }
+
 #header {
     background-image: url(pictures/background.jpg);
     height: 500px;
 }
 header{
     background-color:rgba(255,255,255,0.6);
-    background-size: auto;
     background-blend-mode:lighten;
     background-size: 100% auto;
     margin: 0 0 0 0;
