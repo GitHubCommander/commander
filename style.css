@@ -36,10 +36,11 @@
     border-radius: .6rem;
     margin-right: 15px;
 }
-.Flex h4, h5, h6, a {
+.Flex p, h4, h5, h6, a {
+    width: 260px;
     display: inline-block;
     margin: 10px 0px 0px 15px;
-    height: 23px;
+    vertical-align: top;
     color: #757575;
 }
 .Flex p {
