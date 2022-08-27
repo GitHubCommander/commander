@@ -11,8 +11,6 @@
     width: 255px;
 }
 .Flex {
-    flex-wrap: wrap;
-    display: inline-flex;
     padding: 3px;
     margin: 3px;
     height: 130px;
@@ -36,7 +34,7 @@
     border-radius: .6rem;
     margin-right: 15px;
 }
-.Flex p, .Flex h4, .Flex h5, .Flex h6, .Flex a {
+.Flex p, .Flex h4, .Flex h5, .Flex h6, .Flex a, .FlexDiv a {
     width: 260px;
     display: inline-block;
     margin: 10px 0px 0px 15px;
