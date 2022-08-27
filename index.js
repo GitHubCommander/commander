@@ -1,5 +1,3 @@
-
-
 //以下鯖関連のアイコン等の画像取得↓
 // const { Client } = require("discord.js")
 // const client = new Client({ intents: 32767 })
