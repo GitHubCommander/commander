@@ -48,10 +48,9 @@
     height: 20px;
     color: #757575;
 }
+header{
     background-image: url(pictures/background.jpg);
     height: 500px;
-}
-header{
     background-color:rgba(255,255,255,0.6);
     background-size: auto;
     background-blend-mode:lighten;
@@ -88,8 +87,8 @@ nav ul{
 /*
 nav li, :not(img){
     padding: 0;
-    /* margin-right: 55px;
-    margin-left: 10px; */
+    margin-right: 55px;
+    margin-left: 10px;
 }
 */
 header img{
