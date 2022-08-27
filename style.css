@@ -1,27 +1,120 @@
-.flex {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.FlexDiv{
+    width: 966px;
+    margin-bottom: 70px;
+}
+.FlexDiv a{
+    margin-right: 210px;
+    width: 255px;
+}
+.Flex {
+    padding: 3px;
+    margin: 3px;
+    height: 130px;
+    width: 420px;
+    flex-basis: 49%;
+    border-radius: .6rem;
+    transition: .4s;
+    flex-basis: 49%;
     display: flex;
-    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
-
-.flex img {
-    width: 160px;
-    height: 160px;
-
+.Flex:hover{
+    background-color: #ececec;
+    transform: scale(1.04,1.04);
+    cursor:pointer;
 }
-
-.flex p {
-    width: 300px;
+.Flex img {
+    width: 130px;
+    height: 130px;
+    border-radius: .6rem;
+    margin-right: 15px;
+}
+.Flex p, .Flex h4, .Flex h5, .Flex h6, .Flex a, .FlexDiv a {
+    width: 260px;
     display: inline-block;
-    margin-left: 15px;
-    font-size: 13px;
-    color: #b3aeb5;
+    margin: 10px 0px 0px 15px;
+    vertical-align: top;
+    color: #757575;
+}
+.Flex p {
+    word-wrap: break-word;
+    margin: 10px 0px 0px 15px;
+    height: 20px;
+    color: #757575;
+}
+header{
+    background-image: url(pictures/background.jpg);
+    height: 500px;
+    background-color:rgba(255,255,255,0.6);
+    background-size: auto;
+    background-blend-mode:lighten;
+    background-size: 100% auto;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header h1{
+    margin-left: 55px;
+    margin-top: 55px;
+    font-size: 60px;
+    color: #000;
+    -webkit-text-stroke: 2px #FFF;
+}
+header nav{
+    padding-top: 12px;
+    text-align: center;
+    background-color: black;
+    height: 65px;
+    box-sizing: border-box;
+}
+nav *{
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 200px 0px 7px;
+    height: 23px;
+    color: #757575;
+    /* margin-top: 12px; */
+}
+/*
+nav li, :not(img){
+    padding: 0;
+    margin-right: 55px;
+    margin-left: 10px;
+}
+*/
+header img{
+    width: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+.main-box {
+    float: left;
+    width: 100%;
 }
 
 main{
-    margin-left:120px;
+    width: 900px;
+    margin: 0 auto;
 }
 h1{
     font-size: 44px;
+    margin: 0px 0px 0px 0px ;
+}
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 22px;
 }
 
 .text_fadein{
@@ -58,7 +151,9 @@ h1{
     transform: translateY(0);
   }
 }
-
-header h1{
-  text-align: center;
+nav ul li a {
+    width: 100px;
+    display: inline-block;
+    margin: 10px 0px 0px 15px;
+    vertical-align: top;
 }
