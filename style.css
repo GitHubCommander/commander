@@ -36,7 +36,7 @@
     border-radius: .6rem;
     margin-right: 15px;
 }
-.Flex p, h4, h5, h6, a {
+.Flex p, .Flex h4, .Flex h5, .Flex h6, .Flex a {
     width: 260px;
     display: inline-block;
     margin: 10px 0px 0px 15px;
@@ -152,4 +152,10 @@ h3{
     opacity: 1;
     transform: translateY(0);
   }
+}
+nav ul li a {
+    width: 100px;
+    display: inline-block;
+    margin: 10px 0px 0px 15px;
+    vertical-align: top;
 }
