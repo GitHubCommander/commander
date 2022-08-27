@@ -194,5 +194,5 @@ const members = [
 const serverMembers = document.getElementById("serverMembers")
 for (let i = 0; i <= members.length - 1; i++) {
     const flex = `<a href=""><div class="Flex Member"><img src ="../pictures/Normal/${members[i]}.png"><h4>${members[i]}</h4><p>ここに簡単な説明</p></div></a>`
-    serverMembers.insertAdjacentHTML("beforebegin", flex)
+    serverMembers.insertAdjacentHTML('beforeend', flex)
 }
