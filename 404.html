@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            #stop{
+                width: 600px;
+                height: 60px;
+                background-color: black;
+                color: aliceblue;
+                font-size: 25px;
+                font-weight: 900;
+                text-decoration-color: aliceblue;
+                cursor:pointer;
+                border-radius: 35px;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <h1 id="color-text">お探しのページはありませんでした。</h1>
-        <p id="color-text">404 Not Found</p>
-        <a href="https://githubcommander.github.io/commander/">mainに戻る</a>
+        <header id="headerGen"></header>
+            <main>
+                <h1 id="color-text">お探しのページはありませんでした。</h1>
+                <p>404 Not Found</p>
+                <input type="button" id="stop" value="ポリゴンショック止めるボタン(ムスカ大佐用)"><br>
+                <a href="index.html">mainに戻る</a>
+            </main>
         <script>
-        setInterval(color,1);
-            function color() {
-                var x = document.getElementById("color-text");
-                var run1 = Math.ceil( Math.random() * 255 );
-                var run2 = Math.ceil( Math.random() * 255 );
-                var run3 = Math.ceil( Math.random() * 255 );
-                var y = "rgb(" + run1 + "," + run2 + "," + run3 + ")"
-                x.style.color = y;
-            }
+        const color = setInterval(() => {
+            let x = document.getElementById("color-text");
+            let run1 = Math.ceil( Math.random() * 255 );
+            let run2 = Math.ceil( Math.random() * 255 );
+            let run3 = Math.ceil( Math.random() * 255 );
+            let y = `rgb(${run1},${run2},${run3})`
+            x.style.color = y;
+        }, 10)
+        document.getElementById("stop").onclick = ()=>{
+            clearInterval(color)
+        }
         </script>
+        <script src="js/header.js"></script>
     </body>
 </html>
