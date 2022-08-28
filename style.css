@@ -35,7 +35,7 @@
     margin-right: 15px;
 }
 .Flex p, .Flex h4, .Flex h5, .Flex h6, .Flex a, .FlexDiv a {
-    width: 260px;
+    width: 450px;
     display: inline-block;
     margin: 10px 0px 0px 15px;
     vertical-align: top;
