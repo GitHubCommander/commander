@@ -1,6 +1,10 @@
 .center {
-    display: block;
-    margin: auto;
+    text-align: center;
+}
+
+.center img {
+    width: 100px;
+    height: 100px;
 }
 
 .name {
