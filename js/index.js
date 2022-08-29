@@ -2,6 +2,9 @@
 shortcut.add("ctrl+/",()=>{
     alert("test!!")
 })
+shortcut.add("a",()=>{
+    alert("a=>test!!")
+})
 
 
 
